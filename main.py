@@ -22,6 +22,7 @@ for i in range(ws.max_row):
             .value)
     phone = ws.cell(row=i+1, column=2).value
     status = ws.cell(row=i+1, column=3).value
+
     print("Sr. ", i,  name)
     if(status == 'Done'):
         continue
